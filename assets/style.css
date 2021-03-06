@@ -3,7 +3,6 @@
 * {
     font-family: lato, sans-serif;
     color: #2712ab;
-    background: #fff;
     padding: 0;
     border: 0;
     margin: 0;
@@ -33,6 +32,10 @@ h2 {
 
 /*-----------------------------------Downloads*/
 
+.downloads-background {
+    background-image: url("../assets/images/three-guitar-shadows.jpg"); center center / fixed;
+}
+
 .downloads-container {
     position: relative;
     height: 600px;
@@ -52,13 +55,7 @@ h2 {
     padding: 20px 0;
 }
 
-.downloads-image-shadow {
-    position: absolute;
-    top: 108px;
-    left: 84px;
-}
-
-.downloads-image-ewan-james {
+.downloads-image-song-hero {
     position: absolute;
     top: 108px;
     left: 84px;
