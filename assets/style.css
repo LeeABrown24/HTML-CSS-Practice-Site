@@ -52,6 +52,12 @@ h2 {
     padding: 20px 0;
 }
 
+.downloads-image-shadow {
+    position: absolute;
+    top: 108px;
+    left: 84px;
+}
+
 .downloads-image-ewan-james {
     position: absolute;
     top: 108px;
