@@ -30,11 +30,35 @@ h2 {
     object-fit: fill;    
 }
 
-/*-----------------------------------Downloads*/
+/*-----------------------------------Brand*/
 
-.downloads-background {
-    background-image: url("../assets/images/three-guitar-shadows.jpg"); center center / fixed;
+.container-brand {
+    position: relative;
+    width: 1400px;
+    height: 150px;
+    background: url(../images/ejm-blue-logo.jpeg);
+    background-repeat: repeat-x;
+    border-top: 5px solid #2712ab;
+    border-bottom: 5px solid #2712ab;
+    margin: auto;
 }
+
+.container-brand-circle {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #2712ab;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.container-brand-headshot {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/*-----------------------------------Downloads*/
 
 .downloads-container {
     position: relative;
