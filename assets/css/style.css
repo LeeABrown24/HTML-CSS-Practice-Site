@@ -35,15 +35,19 @@ h2 {
 .container-brand {
     position: relative;
     width: 1400px;
-    height: 150px;
+    height: 160px;
     background: url(../images/ejm-blue-logo.jpeg);
     background-repeat: repeat-x;
+    background-size: contain;
     border-top: 5px solid #2712ab;
     border-bottom: 5px solid #2712ab;
     margin: auto;
 }
 
 .container-brand-circle {
+    position: absolute;
+    top: 0;
+    left: 45%;
     height: 150px;
     width: 150px;
     border: 5px solid #2712ab;
@@ -51,11 +55,15 @@ h2 {
     margin: auto;
 }
 
+.container-goldenrod-circle,
+.container-brand-circle:hover {
+    border: 5px solid #daa520;
+}
+
 .container-brand-headshot {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    overflow: hidden;
 }
 
 /*-----------------------------------Downloads*/
